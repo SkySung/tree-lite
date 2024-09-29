@@ -5,6 +5,7 @@ A lightweight Linux tree command, allowing easy generation of directory structur
 
 ```bash
 current_directory/
+├── node_modules/
 ├── src/
 │   ├── main.sh
 │   └── utils.sh
