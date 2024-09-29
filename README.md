@@ -1,11 +1,16 @@
 # tree-lite
 [繁體中文](https://github.com/SkySung/tree-lite/blob/main/README-zh-TW.md) | [English](https://github.com/SkySung/tree-lite/blob/main/README.md)
-A lightweight Linux tree command, allowing easy generation of directory structures with flexible configuration options.
+A lightweight directory structure generator.
+
+An alternative to the Linux `tree` command, but in a shorter version. (200 lines)
+
+Easily customizable with AI/LLM!
 
 ## Output Example
 
 ```bash
 current_directory/
+├── node_modules/
 ├── src/
 │   ├── main.sh
 │   └── utils.sh
@@ -25,11 +30,13 @@ chmod +x tree.sh
 tree.sh will automatically generate a tree.txt file containing the directory structure.
 
 ## Features
-Multiple Depth Specification Methods: Set directory recursion depth using positional arguments (e.g., ./tree.sh 3) or option parameters (e.g., ./tree.sh -L 3).
-Customizable Ignore List: Easily specify files or directories to exclude from the tree.
-Handles Large Directories: Automatically identifies and appropriately handles large directories to avoid full traversal.
-Flexible Output Configuration: The generated directory structure is saved in tree.txt for easy viewing and sharing.
-User-Friendly Help Options: Use -h or --help to display usage instructions.
++ Easily Using LLM to customize. Need some personal config? `tree.sh` with 200 only lines, easily fit within any LLM context size. Ask AI to make your cutomization.
++ Handles Large Directories: Automatically identifies large directories to avoid full traversal (eg. node_modules/, media/ tmp/).
++ Multiple Depth Specification Methods: Set directory recursion depth using positional arguments (e.g., ./tree.sh 3) or option parameters (e.g., ./tree.sh -L 3).
++ Customizable Ignore List: Easily specify files or directories to exclude from the tree.
+
+## Notice
+Don't forget to add tree.sh/tree.txt in your .gitignore file, or it will be upload to your remote repo.
 
 ## Installation
 1. Download tree.sh to the Current Directory:
