@@ -8,8 +8,7 @@ show_usage() {
     echo "  -h, --help   Display this help message."
     echo
     echo "Arguments:"
-    echo "  [depth]      Optional. The number of levels to recurse into. Can be prefixed with a '-' (e.g., -3). Default is 3 if not provided."
-    echo "               Valid input \"./tree.sh 4\", \"./tree.sh -4\", or \"./tree.sh -L 4\" for 4 levels recursive."
+    echo "  [depth]      Optional. The number of levels to recurse into. Default is 3."
     echo
     echo "To revise the output file name, update the 'output_file' variable in the script."
     echo "To revise the ignored items, update the 'ignore_list' array in the script."
@@ -17,6 +16,7 @@ show_usage() {
     echo "'chmod +x tree.sh' to add authority to execute this shell script."
     echo
     echo "A file named tree.txt will be generated with the directory structure."
+    echo "This script is short, which is really esay for LLM customization!"
 }
 
 script_name=$(basename "$0")

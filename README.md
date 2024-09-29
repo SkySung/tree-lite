@@ -1,4 +1,5 @@
 # tree-lite
+[繁體中文](https://github.com/SkySung/tree-lite/blob/main/README-zh-TW.md) | [English](https://github.com/SkySung/tree-lite/blob/main/README.md)
 A lightweight Linux tree command, allowing easy generation of directory structures with flexible configuration options.
 
 ## Output Example
@@ -11,7 +12,6 @@ current_directory/
 ├── README.md
 └── LICENSE
 ```
-tree.sh will automatically generate a tree.txt file containing the directory structure.
 
 ## Quick start
 
@@ -22,6 +22,8 @@ chmod +x tree.sh
 
 ./tree.sh
 ```
+tree.sh will automatically generate a tree.txt file containing the directory structure.
+
 ## Features
 Multiple Depth Specification Methods: Set directory recursion depth using positional arguments (e.g., ./tree.sh 3) or option parameters (e.g., ./tree.sh -L 3).
 Customizable Ignore List: Easily specify files or directories to exclude from the tree.
