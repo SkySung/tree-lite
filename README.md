@@ -23,11 +23,12 @@ chmod +x tree.sh
 ./tree.sh
 ```
 ## Features
-Multiple Depth Specification Methods: Set directory recursion depth using positional arguments (e.g., ./tree.sh 3) or option parameters (e.g., ./tree.sh -L 3).
-Customizable Ignore List: Easily specify files or directories to exclude from the tree.
-Handles Large Directories: Automatically identifies and appropriately handles large directories to avoid full traversal.
-Flexible Output Configuration: The generated directory structure is saved in tree.txt for easy viewing and sharing.
-User-Friendly Help Options: Use -h or --help to display usage instructions.
++ Handles Large Directories: Automatically identifies and appropriately handles large directories to avoid full traversal.
++ Multiple Depth Specification Methods: Set directory recursion depth using positional arguments (e.g., ./tree.sh 3) or option parameters (e.g., ./tree.sh -L 3).
++ Customizable Ignore List: Easily specify files or directories to exclude from the tree.
+
+## Notice
+Don't forget to add tree.sh/tree.txt in your .gitignore file, or it will be upload to your remote repo.
 
 ## Installation
 1. Download tree.sh to the Current Directory:
