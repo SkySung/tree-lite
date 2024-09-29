@@ -1,5 +1,6 @@
 # tree-lite
 [繁體中文](https://github.com/SkySung/tree-lite/blob/main/README-zh-TW.md) | [English](https://github.com/SkySung/tree-lite/blob/main/README.md)
+
 A lightweight directory structure generator.
 
 An alternative to the Linux `tree` command, but in a shorter version. (200 lines)
